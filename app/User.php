@@ -43,9 +43,5 @@ class User extends Authenticatable
 
     }
 
-    public function setTitleAttribute($value){
-        $this->attributes['title']= $value;
-        $this->attributes['slug']= str_slug();
 
-    }
 }
